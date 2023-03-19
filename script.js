@@ -1,2 +1,7 @@
 let a=prompt('enter color')
-document.body.style.background=a;
+if(a=="")
+{
+    alert('please enter valid color');
+}
+else{
+document.body.style.background=a;}
